@@ -27,6 +27,7 @@ jobs:
     permissions:
       packages: write
       contents: read
+    environment: docker
 
     steps:
       - name: Checkout repository and submodules
